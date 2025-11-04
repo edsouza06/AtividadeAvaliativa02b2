@@ -100,7 +100,7 @@ public class Principal {
 		double troco = realizarPagamento(valortotal);
 		retornarTroco(troco);
 		subtrairEstoque();
-		carrinho.removeAll(carrinho);
+		carrinho.clear();
 	}
 	
 	public static void subtrairEstoque() {
